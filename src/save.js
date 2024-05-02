@@ -14,7 +14,13 @@ const save = ( { attributes } ) => {
 			<pre { ...blockProps }>
 				<RichText.Content
 					tagName="code"
-					value={ attributes.content }
+					value={
+						typeof attributes.content === 'string'
+							? attributes.content
+							: attributes.content.toHTMLString({
+									preserveWhiteSpace: true,
+								})
+					}
 					lang={ attributes.language }
 					className={ cls }
 				/>
