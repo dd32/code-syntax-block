@@ -3,9 +3,9 @@ Contributors: mkaz, westonruter, memuller, jazanne, jeherve, eclev91
 Donate link: https://www.paypal.me/marcuskazmierczak
 Tags: code, code syntax, syntax highlight, code highlighting
 Requires at least: 5.6
-Tested up to: 6.0
+Tested up to: 6.5
 Requires PHP: 5.6
-Stable tag: 3.1.1
+Stable tag: 3.2.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -103,6 +103,11 @@ Example:
 2. In Editor Example
 
 == Changelog ==
+
+= 3.2.0
+
+- Fix issue with content attributes preserving white space
+  Thanks to @danielcharrua
 
 = 3.1.1
 
