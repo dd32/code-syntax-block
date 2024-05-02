@@ -107,7 +107,7 @@ Example:
 = 3.2.0
 
 - Fix issue with content attributes preserving white space
-  Thanks to @danielcharrua
+  Thanks to @chandan-tudu 
 
 = 3.1.1
 
